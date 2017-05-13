@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN go get github.com/mjibson/esc/...
 RUN go get github.com/akavel/rsrc
-RUN go get github.com/yvasiyarov/swagger
+RUN go get github.com/go-swagger/go-swagger/cmd/swagger
